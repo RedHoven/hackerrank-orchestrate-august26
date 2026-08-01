@@ -1,0 +1,111 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids
+msg_023,notify,payment,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0243;message_0102
+msg_091,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0238
+msg_090,digest,greeting,The message is safe but non-urgent and can be reviewed later.,0.68,none
+msg_048,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0151;message_0150
+msg_040,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.79,message_0136;message_0259
+msg_075,notify,event,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0206;message_0205
+msg_005,notify,urgent,The message directly asks this user for a timely response or action.,0.79,message_0065;message_0231
+msg_104,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.79,message_0050;message_0224
+msg_069,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0177;message_0193
+msg_107,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0213;message_0235
+msg_070,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0369;message_0213
+msg_003,notify,business_update,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0400;message_0031
+msg_099,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0227;message_0249
+msg_008,digest,unknown,"This is a legitimate business update, but it does not require an immediate interruption.",0.88,message_0296;message_0072
+msg_092,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.84,message_0346
+msg_060,digest,promotion,The message is safe but non-urgent and can be reviewed later.,0.75,message_0284;message_0176
+msg_004,notify,business_update,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0245;message_0005
+msg_030,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0115;message_0335
+msg_045,notify,urgent,The message contains a time-sensitive operational request.,0.68,none
+msg_052,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0207;message_0159
+msg_009,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0074
+msg_071,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0197
+msg_016,digest,event,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0024
+msg_065,digest,promotion,The message is safe but non-urgent and can be reviewed later.,0.84,message_0261;message_0260
+msg_038,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0131;message_0132
+msg_086,digest,unknown,"This is a legitimate business update, but it does not require an immediate interruption.",0.77,none
+msg_014,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.84,message_0258;message_0018
+msg_094,digest,promotion,The message is safe but non-urgent and can be reviewed later.,0.77,none
+msg_029,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0095;message_0113
+msg_105,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0373;message_0233
+msg_002,notify,payment,The message directly asks this user for a timely response or action.,0.79,message_0266;message_0003
+msg_010,digest,unknown,"This is a legitimate business update, but it does not require an immediate interruption.",0.84,message_0011;message_0242
+msg_078,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.68,none
+msg_013,digest,promotion,The message is safe but non-urgent and can be reviewed later.,0.68,none
+msg_018,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0026;message_0091
+msg_044,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0143;message_0144
+msg_032,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0119;message_0285
+msg_106,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0376;message_0234
+msg_006,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0029;message_0044
+msg_109,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0151;message_0150
+msg_108,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0094;message_0093
+msg_019,digest,business_update,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0277;message_0094
+msg_088,mute,spam,The user has muted this group and the message has no direct or urgent need.,0.68,none
+msg_056,notify,event,The message directly asks this user for a timely response or action.,0.79,message_0359;message_0226
+msg_027,digest,promotion,The message is safe but non-urgent and can be reviewed later.,0.84,message_0272;message_0033
+msg_050,digest,business_update,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0279;message_0278
+msg_083,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
+msg_063,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
+msg_033,digest,greeting,The message is safe but non-urgent and can be reviewed later.,0.75,message_0121;message_0122
+msg_061,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0080;message_0042
+msg_020,notify,event,The message contains a time-sensitive operational request.,0.75,message_0096;message_0114
+msg_017,mute,payment,The user has muted this group and the message has no direct or urgent need.,0.75,message_0090
+msg_058,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0039;message_0241
+msg_026,digest,business_update,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0032;message_0107
+msg_047,notify,event,The message contains a time-sensitive operational request.,0.75,message_0099;message_0100
+msg_046,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0148;message_0147
+msg_042,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0140;message_0058
+msg_079,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0369;message_0053
+msg_098,notify,event,The message contains a time-sensitive operational request.,0.75,message_0359;message_0168
+msg_037,digest,greeting,The message is safe but non-urgent and can be reviewed later.,0.75,message_0216;message_0130
+msg_007,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0069;message_0070
+msg_085,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
+msg_001,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
+msg_021,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0098;message_0068
+msg_028,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.84,message_0034;message_0112
+msg_012,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0079;message_0247
+msg_064,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
+msg_103,notify,greeting,The message directly asks this user for a timely response or action.,0.79,message_0065;message_0231
+msg_031,notify,urgent,The message contains a time-sensitive operational request.,0.68,none
+msg_057,notify,unknown,The message directly asks this user for a timely response or action.,0.79,message_0003;message_0266
+msg_087,mute,spam,The user has muted this group and the message has no direct or urgent need.,0.75,message_0391
+msg_067,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0098;message_0068
+msg_039,notify,urgent,The message directly asks this user for a timely response or action.,0.79,message_0364;message_0255
+msg_082,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
+msg_066,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.84,message_0257;message_0402
+msg_049,notify,urgent,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0154;message_0291
+msg_015,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0023;message_0045
+msg_051,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.84,message_0257;message_0402
+msg_097,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0167;message_0054
+msg_089,notify,urgent,The message contains a time-sensitive operational request.,0.68,none
+msg_053,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.68,none
+msg_059,notify,event,The message contains a time-sensitive operational request.,0.75,message_0174;message_0173
+msg_024,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.84,message_0257;message_0402
+msg_072,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.76,none
+msg_036,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0283;message_0127
+msg_076,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0207;message_0159
+msg_055,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0387
+msg_102,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0371;message_0230
+msg_080,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0097;message_0067
+msg_093,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.92,message_0398;message_0349
+msg_034,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0123;message_0171
+msg_035,digest,unknown,"This is a legitimate business update, but it does not require an immediate interruption.",0.84,message_0281;message_0125
+msg_101,digest,personal,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0370;message_0229
+msg_041,digest,urgent,The message appears safe and useful enough for a later digest rather than an interruption.,0.77,none
+msg_011,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0123;message_0171
+msg_110,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0238
+msg_095,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0024
+msg_074,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.75,message_0203
+msg_073,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0202;message_0184
+msg_054,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0163;message_0358
+msg_068,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0191
+msg_100,notify,payment,The message directly asks this user for a timely response or action.,0.79,message_0362;message_0228
+msg_062,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0043
+msg_096,digest,personal,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
+msg_043,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0098;message_0068
+msg_077,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
+msg_081,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
+msg_025,notify,business_update,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0239;message_0004
+msg_084,digest,unknown,"This is a legitimate business update, but it does not require an immediate interruption.",0.84,message_0391
+msg_022,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0151;message_0149
