@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,notify,payment,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0243;message_0102
-msg_091,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0238
-msg_090,digest,greeting,The message is safe but non-urgent and can be reviewed later.,0.68,none
-msg_048,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0151;message_0150
-msg_040,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.79,message_0136;message_0259
-msg_075,notify,event,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0206;message_0205
-msg_005,notify,urgent,The message directly asks this user for a timely response or action.,0.79,message_0065;message_0231
-msg_104,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.79,message_0050;message_0224
-msg_069,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0177;message_0193
-msg_107,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0213;message_0235
-msg_070,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0369;message_0213
-msg_003,notify,business_update,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0400;message_0031
-msg_099,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0227;message_0249
-msg_008,digest,unknown,"This is a legitimate business update, but it does not require an immediate interruption.",0.88,message_0296;message_0072
-msg_092,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.84,message_0346
-msg_060,digest,promotion,The message is safe but non-urgent and can be reviewed later.,0.75,message_0284;message_0176
-msg_004,notify,business_update,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0245;message_0005
-msg_030,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0115;message_0335
-msg_045,notify,urgent,The message contains a time-sensitive operational request.,0.68,none
-msg_052,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0207;message_0159
-msg_009,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0074
-msg_071,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0197
-msg_016,digest,event,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0024
-msg_065,digest,promotion,The message is safe but non-urgent and can be reviewed later.,0.84,message_0261;message_0260
-msg_038,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0131;message_0132
-msg_086,digest,unknown,"This is a legitimate business update, but it does not require an immediate interruption.",0.77,none
-msg_014,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.84,message_0258;message_0018
-msg_094,digest,promotion,The message is safe but non-urgent and can be reviewed later.,0.77,none
-msg_029,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0095;message_0113
-msg_105,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0373;message_0233
-msg_002,notify,payment,The message directly asks this user for a timely response or action.,0.79,message_0266;message_0003
-msg_010,digest,unknown,"This is a legitimate business update, but it does not require an immediate interruption.",0.84,message_0011;message_0242
-msg_078,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.68,none
-msg_013,digest,promotion,The message is safe but non-urgent and can be reviewed later.,0.68,none
-msg_018,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0026;message_0091
-msg_044,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0143;message_0144
-msg_032,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0119;message_0285
-msg_106,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0376;message_0234
-msg_006,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0029;message_0044
-msg_109,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0151;message_0150
-msg_108,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0094;message_0093
-msg_019,digest,business_update,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0277;message_0094
-msg_088,mute,spam,The user has muted this group and the message has no direct or urgent need.,0.68,none
-msg_056,notify,event,The message directly asks this user for a timely response or action.,0.79,message_0359;message_0226
-msg_027,digest,promotion,The message is safe but non-urgent and can be reviewed later.,0.84,message_0272;message_0033
-msg_050,digest,business_update,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0279;message_0278
-msg_083,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
-msg_063,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
-msg_033,digest,greeting,The message is safe but non-urgent and can be reviewed later.,0.75,message_0121;message_0122
-msg_061,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0080;message_0042
-msg_020,notify,event,The message contains a time-sensitive operational request.,0.75,message_0096;message_0114
-msg_017,mute,payment,The user has muted this group and the message has no direct or urgent need.,0.75,message_0090
-msg_058,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0039;message_0241
-msg_026,digest,business_update,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0032;message_0107
-msg_047,notify,event,The message contains a time-sensitive operational request.,0.75,message_0099;message_0100
-msg_046,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0148;message_0147
-msg_042,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0140;message_0058
-msg_079,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0369;message_0053
-msg_098,notify,event,The message contains a time-sensitive operational request.,0.75,message_0359;message_0168
-msg_037,digest,greeting,The message is safe but non-urgent and can be reviewed later.,0.75,message_0216;message_0130
-msg_007,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0069;message_0070
-msg_085,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
-msg_001,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
-msg_021,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0098;message_0068
-msg_028,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.84,message_0034;message_0112
-msg_012,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0079;message_0247
-msg_064,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
-msg_103,notify,greeting,The message directly asks this user for a timely response or action.,0.79,message_0065;message_0231
-msg_031,notify,urgent,The message contains a time-sensitive operational request.,0.68,none
-msg_057,notify,unknown,The message directly asks this user for a timely response or action.,0.79,message_0003;message_0266
-msg_087,mute,spam,The user has muted this group and the message has no direct or urgent need.,0.75,message_0391
-msg_067,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0098;message_0068
-msg_039,notify,urgent,The message directly asks this user for a timely response or action.,0.79,message_0364;message_0255
-msg_082,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
-msg_066,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.84,message_0257;message_0402
-msg_049,notify,urgent,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0154;message_0291
-msg_015,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0023;message_0045
-msg_051,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.84,message_0257;message_0402
-msg_097,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0167;message_0054
-msg_089,notify,urgent,The message contains a time-sensitive operational request.,0.68,none
-msg_053,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.68,none
-msg_059,notify,event,The message contains a time-sensitive operational request.,0.75,message_0174;message_0173
-msg_024,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.84,message_0257;message_0402
-msg_072,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.76,none
-msg_036,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0283;message_0127
-msg_076,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0207;message_0159
-msg_055,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0387
-msg_102,notify,urgent,The message contains a time-sensitive operational request.,0.75,message_0371;message_0230
-msg_080,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0097;message_0067
-msg_093,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.92,message_0398;message_0349
-msg_034,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0123;message_0171
-msg_035,digest,unknown,"This is a legitimate business update, but it does not require an immediate interruption.",0.84,message_0281;message_0125
-msg_101,digest,personal,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0370;message_0229
-msg_041,digest,urgent,The message appears safe and useful enough for a later digest rather than an interruption.,0.77,none
-msg_011,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0123;message_0171
-msg_110,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0238
-msg_095,mute,scam,"The message requests sensitive verification or uses a suspicious, high-pressure flow.",0.83,message_0024
-msg_074,mute,promotion,The promotion conflicts with the user's opt-out or prior dismissal behavior.,0.75,message_0203
-msg_073,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0202;message_0184
-msg_054,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0163;message_0358
-msg_068,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0191
-msg_100,notify,payment,The message directly asks this user for a timely response or action.,0.79,message_0362;message_0228
-msg_062,mute,greeting,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0043
-msg_096,digest,personal,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
-msg_043,mute,forward,This is a repeated forward or low-value greeting with negative engagement signals.,0.75,message_0098;message_0068
-msg_077,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
-msg_081,digest,unknown,The message appears safe and useful enough for a later digest rather than an interruption.,0.68,none
-msg_025,notify,business_update,A verified business update matches the user's active relationship and may require timely action.,0.84,message_0239;message_0004
-msg_084,digest,unknown,"This is a legitimate business update, but it does not require an immediate interruption.",0.84,message_0391
-msg_022,digest,payment,The message appears safe and useful enough for a later digest rather than an interruption.,0.75,message_0151;message_0149
+msg_023,digest,business_update,Verified bank account update with strong transaction evidence and high relevance to the user but no immediate safety or urgent deadline; timely digest-style notification minimizes interruption.,0.92,message_0243
+msg_091,mute,scam,Phishing attempt requesting a 6-digit login code with urgent expiration language; routing assessment marks clear scam and user previously dismissed/muted/reported similar messages. Mute to block interruptions and reduce fraud risk.,0.95,message_0238
+msg_090,digest,personal,Unfamiliar sender asking identity verification about a package; direct personal relevance but explicitly non-urgent and no active transaction or safety need—can be bundled in a digest.,0.90,none
+msg_048,mute,scam,Message requests immediate QR payment to avoid access-card blocking — matches payment-harvest scam. Sender and similar posts have been dismissed/reported and origin is strongly_unwanted with no legitimate transaction evidence. Safety-first: mute to prevent interruption and reduce exposure.,0.95,message_0151
+msg_040,mute,forward,"Chain/forwarded superstition asking to resend to multiple groups; suspicious and unwanted pattern, user has muted this group and similar messages were dismissed—no safety or urgent relevance.",0.92,message_0136;message_0135
+msg_075,notify,event,Verified ride-hailing service with an active booking today; message indicates a near-term change to pickup/route that could affect the imminent trip—user should check the app promptly.,0.93,message_0205;message_0206
+msg_005,notify,promotion,Seller reserved a specific item for recipient with a firm same-day pickup deadline (by 6 PM) and strong transaction evidence; delaying risks losing the hold.,0.92,message_0401;message_0065
+msg_104,mute,promotion,The user has repeatedly rejected comparable messages from this commercial origin and there is no evidence of an active transaction.,0.78,message_0224;message_0383
+msg_069,mute,forward,Benign chain-forwarded greeting with no urgency or relevance; sender has strong history of repeated unwanted forwards and user has muted the group—suppress to minimize interruptions.,0.88,message_0177;message_0193
+msg_107,mute,scam,Direct request to send OTP/code — classic credential-harvesting phishing. Routing assessment marks clear_scam and immediate safety risk; mute to prevent user exposure.,0.95,message_0023;message_0045
+msg_070,mute,scam,Clear phishing attempt requesting OTP/verification via link with threat of account block; high safety risk—suppress notifications to avoid prompting interaction.,0.92,message_0023;message_0045
+msg_003,notify,business_update,Verified Amazon India delivery-status update for an order expected today with strong active-transaction evidence and high user relevance—near-term delivery may require recipient action.,0.94,message_0031
+msg_099,notify,event,"Trusted colleague added notes for tomorrow's dashboard review and asked recipient to read before the 11 AM standup — time-sensitive, high relevance to an upcoming meeting.",0.92,message_0227
+msg_008,digest,promotion,Verified seller requesting post‑purchase product review; non‑urgent promotional/engagement message sent during Do Not Disturb and user allows promotions — collect for next digest to minimize interruption.,0.86,message_0296;message_0072
+msg_092,notify,business_update,Verified card issuer notifying recipient of their monthly statement with strong active-transaction evidence and high relevance; no safety risk and routine account update warrants notify.,0.92,none
+msg_060,notify,event,Legitimate institutional deadline from Faculty Advising with strong active-transaction evidence and high relevance—forms due by 5 PM today; immediate notification to avoid missed administrative action is warranted.,0.95,message_0404
+msg_004,digest,business_update,"Verified healthcare provider with known relationship; message is an account/health update related to appointments/prescriptions with no immediate deadline—important but not urgent, so include in digest to minimize interruption.",0.86,message_0245;message_0005
+msg_030,mute,promotion,The user has repeatedly rejected comparable messages from this commercial origin and there is no evidence of an active transaction.,0.88,message_0115;message_0335
+msg_045,notify,urgent,"Time-sensitive, near-term delivery at the recipient's gate requesting confirmation within 10 minutes; high user relevance and immediate interruption need despite weak transaction evidence.",0.78,message_0061;message_0267
+msg_052,mute,scam,"Phishing/credential-harvest pattern: sender domain mismatches official brand, unverified business and young sender domain, requests wallet details via link; routing_assessment flags clear_scam and user has repeatedly dismissed/reported similar messages with same-origin preference strongly_unwanted — mute to avoid interruption and risk.",0.95,message_0207;message_0159
+msg_009,digest,personal,"Casual, non-urgent group chat about watching a match; user has muted this group and relevance is low, so defer to digest to minimize interruption.",0.86,message_0074
+msg_071,digest,personal,Group message about meeting tomorrow with no exact time and sender says they will confirm later; no safety risk or required immediate action so minimize interruption and include in next digest.,0.92,message_0197;message_0198
+msg_016,mute,scam,"Phishing-style urgent account verification with external login link, short deadline, and no legitimate transaction evidence; sender and origin have strong negative history and similar messages were previously reported/muted—clear scam risk, mute to avoid user exposure.",0.95,message_0024
+msg_065,digest,promotion,"Verified retail promotion from a known sender; user has active relationship and prior engagement but the offer period is routine or already passed, no safety or immediate action required—minimize interruption by including in the next digest.",0.86,message_0261
+msg_038,mute,forward,"Chain-letter style forward (no transaction or safety need), flagged suspicious and previously dismissed/muted by this user; not time-sensitive so mute to minimize interruption.",0.88,message_0131;message_0132
+msg_086,notify,event,"Verified travel vendor sent a near-term, time-sensitive change to a confirmed airport pickup for tomorrow at 06:15; strong active-transaction evidence and risk of missed pickup if delayed to digest.",0.93,message_0222
+msg_014,mute,promotion,The user has repeatedly rejected comparable messages from this commercial origin and there is no evidence of an active transaction.,0.88,message_0258;message_0018
+msg_094,mute,promotion,"Verified commercial marketing from Nykaa offering a limited-time discount; user has limited/no engagement with this sender, prior dismissals/mutes, no active transaction evidence and low relevance—no need to interrupt.",0.87,message_0356
+msg_029,notify,promotion,"Marketplace listing with strong active-transaction evidence, high user relevance, and a near-term pickup window this weekend — user likely affected and could miss opportunity if not notified.",0.92,message_0401;message_0113
+msg_105,mute,scam,Forwarded unsafe health advice urging cessation of medications and rapid sharing; classified as deceptive/unsafe misinformation and previously repeated by this sender — mute to prevent interruption and reduce spread.,0.92,message_0373;message_0233
+msg_002,notify,urgent,"Direct, time-sensitive request from a coworker in an engaged work group to call before a near-term client meeting; high relevance and strong active-transaction evidence—recipient likely needs to act immediately to avoid a meeting mistake.",0.92,message_0003;message_0041
+msg_010,digest,business_update,"Verified cinema feedback request; non-urgent, high relevance but no immediate action needed and user has engaged with this sender before—deliver in digest to minimize interruption.",0.88,message_0011;message_0242
+msg_078,mute,scam,Explicit phishing attempt requesting bank details and a screenshot; group and sender history show similar reported phishing; clear safety risk—suppress notifications to prevent interaction.,0.92,message_0211
+msg_013,digest,promotion,Group marketplace listing with seller-imposed same-day urgency but no evidence the recipient is involved; commercial origin and weak transaction evidence => do not interrupt now; include in digest for later review.,0.88,none
+msg_018,mute,scam,"Generic reward/claim message with urgent language, heavily forwarded and matching previously reported scam patterns; no transaction evidence or recipient relevance and clear deception—safely mute to prevent interruption and risk.",0.92,message_0026
+msg_044,mute,scam,Classic OTP phishing/impersonation attempt with urgent language and link; sender and similar messages previously reported/muted and no evidence of a legitimate transaction—safety risk. Mute to avoid user harm and unnecessary interruption.,0.93,message_0143
+msg_032,digest,personal,Classmate in course group requests slides but specifies “No rush.” No safety risk or active transaction and not time-sensitive; route to digest to minimize interruption while keeping it available for later follow-up.,0.82,message_0119
+msg_106,notify,event,Same-day change to scheduled dance practice from a known sender with a concrete entry instruction and deadline (arrive before 7:15); time-sensitive and likely affects user attendance.,0.93,message_0376;message_0234
+msg_006,notify,event,Same-group admin notice about maintenance closing by 5 PM today and receipt reconciliation—time-sensitive operational info the user (an engaged group admin) is likely responsible for; notify to avoid missed action.,0.92,message_0029;message_0044
+msg_109,digest,business_update,"Time-sensitive admin payment request appears suspicious (QR/pay flow) and active transaction evidence is weak; user has strong negative history with this sender/origin and same-origin interruption veto applies, so avoid immediate notify but include in digest to prevent missed deadline.",0.78,message_0151
+msg_108,mute,scam,"Phishing attempt: directs user to non-official domain to confirm PIN with domain/brand mismatches, young sender domain, prior similar reported/muted messages, and routing_assessment identifies clear scam—mute to avoid user harm.",0.96,message_0094;message_0093
+msg_019,mute,scam,"Clear phishing pattern: sender impersonates bank with mismatched/new sender domain, unverified account, user has previously reported/muted similar messages and no active transaction evidence—likely deceptive link; mute to prevent interruption and risk.",0.92,message_0277
+msg_088,mute,promotion,The user has repeatedly rejected comparable messages from this commercial origin and there is no evidence of an active transaction.,0.88,message_0224
+msg_056,notify,event,"Direct, time-sensitive request to the recipient about a scheduled appointment (confirm leaving by 5:15 for a 6:00 PM doctor visit). High relevance and active transaction evidence; immediate response needed to avoid missed appointment.",0.94,message_0168;message_0359
+msg_027,digest,promotion,"Legitimate promotional travel offer from a verified travel business the user has engaged with; no active transaction or safety urgency and user allows promotions, so defer to digest to minimize interruption.",0.86,message_0272;message_0033
+msg_050,digest,business_update,"Known pharmacy account with strong transaction evidence and high relevance, but informational with no imminent deadline—can be bundled into digest to minimize interruption.",0.88,message_0279
+msg_083,digest,event,Workgroup request to review onboarding doc by tomorrow morning/before lunch; time-sensitive but not urgent—can be included in next digest to minimize interruptions.,0.82,message_0219
+msg_063,mute,scam,"Message is a clear payment-scamming attempt (urgent reactivation, QR scan, screenshot) matching prior scam-like content from this sender; no legitimate transaction evidence—mute to prevent user harm and interruption.",0.92,message_0181;message_0182
+msg_033,digest,personal,Family group member sending a non-urgent check-in/greeting; directly relevant but explicitly not urgent and no safety/transaction needs—can be batched in digest to minimize interruption.,0.92,none
+msg_061,mute,forward,Repeated chain/forward greeting from a sender the user consistently mutes/ dismisses; low relevance and no safety or transaction urgency despite a ‘before sunset’ prompt.,0.90,message_0042;message_0177
+msg_020,mute,scam,"Classic phishing pattern (shortened link, urgent account-check language) in a marketplace group; no transaction evidence and forwarded—mute to avoid interruption and protect user.",0.95,none
+msg_017,mute,scam,"Suspicious, coercive payment demand in a large muted marketplace group with no evidence of an active transaction; likely fraudulent. Mute to avoid interruption and risk of phishing/financial fraud.",0.89,none
+msg_058,mute,forward,Repeated chain-forwarded health claim from a sender the user has consistently muted/dismissed; no safety or urgent relevance and vague ‘before night’ request doesn’t justify interruption—suppress notifications.,0.92,message_0040;message_0039
+msg_026,mute,scam,"Phishing delivery scam: unverified sender and mismatched, recently created domain (amazonpay-delivery.in) asking for payment/verification with urgent deadline; user has flagged/reported similar messages and same-origin contacts are strongly unwanted—safety risk, mute to prevent interruption and harm.",0.95,message_0032
+msg_047,notify,event,Trusted society maintenance notice affecting building lift access starting at 4 PM today; high user relevance and delaying risks near-term missed access—notify now.,0.92,message_0150;message_0149
+msg_046,mute,scam,Explicit request for OTP with threat of account closure—classic credential harvesting phishing. Routing assessment marks this as clear scam with no legitimate transaction evidence; mute to avoid interruption and reduce harm.,0.96,message_0147;message_0148
+msg_042,notify,urgent,Trusted society maintenance group sent a time-sensitive request (10-minute window) requiring immediate action to avoid towing—recipient likely affected and needs to move vehicles now.,0.92,message_0140;message_0058
+msg_079,mute,scam,Explicit request for OTP with urgent threat to block account — classic credential-harvesting scam. No verified transaction evidence; sender in marketplace group. Mute to prevent user interruption and harm.,0.93,message_0023;message_0045
+msg_098,notify,event,Trusted close contact requests an immediate phone call about a near-term clinic appointment change; active transaction evidence and potential missed-action consequences warrant interrupting now.,0.92,message_0359;message_0168
+msg_037,notify,urgent,Time-sensitive society logistics: water tanker arrived and driver will leave in ~10 minutes; user is an active group member/admin and likely affected—immediate interruption justified.,0.92,none
+msg_007,digest,event,Community society announcement about potluck registrations due by next Sunday. High relevance but non-urgent logistics with no safety or transaction evidence; can be included in a digest to minimize interruption.,0.86,none
+msg_085,mute,scam,"Clear phishing attempt: unverified sender domain that doesn’t match official bank domain, young/reported business account, asks for OTP and threatens blocking — credential-theft pattern; no legitimate transaction evidence and sent during DND. Mute to avoid user exposure and interruption.",0.93,message_0221
+msg_001,notify,urgent,"Time-sensitive, actionable notice about tanker leaving in 20 minutes affecting the user’s water supply; sender and group are trusted and active, and delaying risks a missed safety/needs action.",0.92,message_0057;message_0240
+msg_021,digest,business_update,"Society payment notice with strong account relationship but same-day 5 PM deadline has already passed (message time 18:07). No safety risk and user is engaged with this sender, so deliver in digest rather than interrupting immediately.",0.92,message_0098;message_0068
+msg_028,mute,promotion,"Promotional travel offer from a business the user has opted out of and has repeatedly dismissed/muted; no active transaction or safety urgency, low relevance — suppress notifications to minimize interruption.",0.92,message_0034;message_0111
+msg_012,mute,forward,Forwarded chain health claim urging wide sharing from a sender with a strong history of unwanted forwards; flagged suspicious with no recipient-specific urgency or transaction evidence—avoid interruption and reduce repeat noise.,0.93,message_0079;message_0247
+msg_064,mute,scam,"Message asks recipient to 'verify wallet and card details before midnight'—a credential/payment-harvesting request consistent with phishing. Forwarded promotional poster in a large marketplace group with weak evidence of an active transaction; safety risk is primary, so mute to avoid interruption and prevent credential exposure.",0.92,none
+msg_103,notify,promotion,"Sender reserved an item for the user and requests pickup by 6 PM today; routing assessment shows strong active transaction evidence and high user relevance, so immediate notification is needed to avoid missing the pickup.",0.93,message_0065;message_0390
+msg_031,notify,event,"Work group 7 PM sync confirmed; sender requests deployment notes, incident summary and rollback questions with need to close action items tonight — high relevance and risk of missed near-term action.",0.92,none
+msg_057,notify,urgent,"Direct @-mention in coworker group requesting immediate help to check a failing build before a client update; high relevance, strong active-transaction evidence, and near-term action risk.",0.94,message_0266;message_0041
+msg_087,mute,promotion,"Group-posted commercial real-estate marketing with no active transaction evidence, user has muted the group and there is no near-term safety or operational urgency; same-origin commercial notifications are strongly unwanted unless strong transaction evidence exists.",0.91,none
+msg_067,notify,payment,Urgent society maintenance payment due today by 5:00 PM with late fee risk; sender is group admin and user is an engaged member/admin with strong transaction evidence—notify to avoid missed payment.,0.95,message_0097;message_0067
+msg_039,notify,payment,"Direct, addressed payment request with strong transaction evidence and same-day deadline that could cause a missed action (school matching payments, field-trip list closing today). Sender and group history show engaged relationship—notify immediately.",0.93,message_0051;message_0037
+msg_082,notify,urgent,Work group alert reporting live payments failing and asking to join incident bridge now; sender and conversation are relevant and evidence indicates immediate operational impact within minutes.,0.92,message_0218
+msg_066,mute,promotion,"Verified retail promotion but user has opted out of promotions, has previously dismissed/muted similar messages, and there is weak transaction evidence and no near-term safety/operational need—suppress interruption.",0.92,message_0402
+msg_049,notify,event,"Verified Shopee return pickup scheduled today 2–5 PM with strong active transaction evidence; user relevance and immediate preparation needed (keep item packed, share pickup code only after courier arrives).",0.92,message_0154;message_0291
+msg_015,mute,scam,Message is a credential-harvesting scam requesting OTP with an imminent lock threat; mute to prevent interruption and reduce risk.,0.92,message_0023;message_0045
+msg_051,mute,promotion,The user has repeatedly rejected comparable messages from this commercial origin and there is no evidence of an active transaction.,0.88,message_0257
+msg_097,digest,personal,Trusted contact sent a non-urgent personal update requesting to talk tomorrow morning; no safety or immediate action required and sender is engaged—delay notification to digest.,0.92,message_0054;message_0225
+msg_089,notify,event,"Personal, time-sensitive logistics: workshop staff says your lost item available only until 7 PM today—risk of near-term missed action if not notified.",0.92,none
+msg_053,digest,business_update,Routine group market note and chart from a previously-engaged sender; informational (no urgent ask or active transaction evidence) — safe to include in next digest rather than interrupting the user.,0.92,message_0411
+msg_059,mute,scam,Message solicits account details with urgent payout promise — classic phishing/credential-harvesting in a large marketplace group; immediate safety risk and no valid transaction evidence.,0.93,none
+msg_024,mute,promotion,The user has repeatedly rejected comparable messages from this commercial origin and there is no evidence of an active transaction.,0.88,message_0257
+msg_072,mute,scam,"Phishing attempt: urgent demand for OTP via external link, threatens account hold—classic credential-stealing pattern; group marketplace origin and no strong transaction evidence. Mute to prevent harm and interruptions.",0.92,message_0023;message_0045
+msg_036,mute,scam,"High-risk phishing pattern: sender domain differs from official domain and is newly created, account unverified with repeated negative history, message requests verification via a link and lacks evidence of an active payout; user has marked similar messages unwanted. Mute to avoid interruption and protect user safety.",0.95,message_0283
+msg_076,mute,scam,"Phishing-style refund request: mismatched, new sender domain and unverified business asking for wallet details; behavioral history shows repeated reports/mutes and user strongly_unwanted preference for this origin. No evidence of a legitimate active transaction—safest to mute and block potential scam.",0.95,message_0207;message_0159
+msg_055,notify,urgent,Known family member in group requests an immediate call with a 10-minute decision window; high relevance and time-sensitive—notify now.,0.92,message_0166;message_0165
+msg_102,notify,urgent,Active production rollback: sender requests recipient stay online for the next 30 minutes to monitor failed jobs — time-sensitive operational intervention with strong transaction evidence and high sender relevance.,0.95,message_0371;message_0230
+msg_080,notify,urgent,Time-sensitive operational instruction from a trusted society group/admin: residents must move cars within 10 minutes to avoid being blocked or shifted by security. High relevance to recipient and immediate interruption justified.,0.95,message_0216;message_0130
+msg_093,notify,business_update,Verified FedEx sender with strong active-transaction evidence and a time‑sensitive delivery window today (2–4 PM); recipient likely needs to be available/ID ready despite DND. Safety risk low.,0.92,none
+msg_034,mute,greeting,"Non-urgent group greeting/personal note with no safety or transaction need; sender and similar messages have strong history of being dismissed/muted and the group is muted by the user, so minimize interruptions.",0.92,message_0013;message_0123
+msg_035,digest,promotion,Verified business marketing outreach relevant to the user with prior engagement but no active transaction or immediate obligation; non-urgent promotion should be batched to minimize interruption.,0.88,message_0281
+msg_101,digest,personal,Known contact offering food; no safety risk and sender indicated no reply needed. High relevance but no immediate interruption warranted (sent during DND).,0.92,message_0268;message_0370
+msg_041,digest,promotion,Verified organization outreach for a non-urgent survey (commercial/promotional). Low interruption need and no strong transaction evidence; route to digest to minimize interruptions.,0.86,message_0137;message_0138
+msg_011,mute,forward,"Repeated forwarded greeting with no actionable content; sender and similar messages are consistently dismissed/muted and group already muted by user, so low relevance and interruption vetoed.",0.93,message_0014;message_0013
+msg_110,mute,scam,Phishing request for a 6-digit login code with account-suspension pressure; routing assessment indicates clear scam and prior similar reports—mute to prevent interruption and protect user.,0.92,message_0238
+msg_095,mute,scam,"Phishing attempt requesting wallet PIN and linking to a suspicious site (credential/payment-harvesting). Sender and similar messages have been repeatedly dismissed/muted/reported, same-origin preference is strongly_unwanted, and there is no evidence of an active legitimate transaction—safety risk is clear.",0.92,message_0024;message_0201
+msg_074,mute,promotion,The user has repeatedly rejected comparable messages from this commercial origin and there is no evidence of an active transaction.,0.88,message_0204;message_0203
+msg_073,mute,scam,"Phishing-style urgent verification asking to follow a link for account access; sender and origin have strong negative history and message matches scam patterns (immediate action, threats, link). Mute to avoid interruption and protect user safety.",0.95,message_0024
+msg_054,mute,scam,"Advance-fee loan scam asking for an upfront processing fee via link; routing assessment flags clear scam, sender has strong unwanted history and similar prior scam messages in this group—no active transaction evidence and interruption not needed.",0.95,message_0163;message_0164
+msg_068,digest,event,Group logistics about post-match plans; sender explicitly states no urgency and no active transaction or safety risk. Relevant to members but not time-critical—queue for digest or non-immediate notification.,0.92,message_0191;message_0192
+msg_100,notify,urgent,"Known, engaged sender requests immediate intervention for a client escalation in 20 minutes with strong active-transaction evidence—recipient likely needed now.",0.92,message_0362;message_0228
+msg_062,notify,urgent,Missing-person poster for a 16-year-old with a specific last-known location and contact numbers; group admin role and sender engagement make this highly relevant and time-sensitive — waiting risks delaying a near-term community response. DND does not override clear safety/urgent needs.,0.94,message_0410
+msg_096,notify,urgent,"Sender reports the user’s passport was found and requests pickup before 18:00 today. High user relevance, strong transaction evidence, and a near-term deadline mean waiting risks a missed, potentially important action—notify immediately.",0.92,none
+msg_043,notify,urgent,Trusted society admin forwarded a time-sensitive logistical notice (tanker leaves in ~15 min) with strong active-transaction evidence and high user relevance—immediate action likely needed.,0.92,message_0001;message_0216
+msg_077,notify,event,Legitimate school group notice requiring same-day action (signed consent and bus list closes this evening) for tomorrow’s field trip; user is an engaged admin and likely responsible—notify despite DND.,0.95,message_0403
+msg_081,notify,event,Time-sensitive school transport pickup change for today (reach by 15:40). Sender is school transport in the parents' group and the user is likely affected—requires immediate attention.,0.96,message_0217
+msg_025,notify,business_update,Verified Amazon order update with strong active-transaction evidence; package expected at local hub today so user likely affected and may need to act—notify immediately.,0.93,message_0239;message_0004
+msg_084,mute,promotion,"Verified business promotional offer but user has promotions_opted_out and low relevance; no active transaction evidence and sender-origin promotional interruption veto applies, so mute to avoid unwanted interruptions.",0.92,none
+msg_022,digest,business_update,Group payment reminder requests link + screenshot (possible payment-harvest pattern). Sender history and user behavior show similar unwanted messages and transaction evidence is weak — deliver in digest rather than interrupt and avoid immediate action; treat as suspicious.,0.86,message_0151;message_0099

@@ -1,3 +1,9 @@
 .venv/
+.env
 __pycache__/
 *.pyc
+*.csv
+*.json
+*.zip
+submission_code/
+.DS_Store

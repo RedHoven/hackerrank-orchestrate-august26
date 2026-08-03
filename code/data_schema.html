@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Message Notification Router — Data Schema</title>
+  <style>
+  #schema-explorer { color: #1d2433; font-family: Inter, ui-sans-serif, system-ui, sans-serif; max-width: 1180px; margin: 24px auto; padding: 0 20px 30px; }
+  #schema-explorer h1 { font-size: 28px; margin: 0 0 6px; }
+  #schema-explorer h2 { font-size: 18px; margin: 28px 0 12px; }
+  #schema-explorer p { color: #566173; line-height: 1.5; margin: 0; }
+  #schema-explorer .metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 20px 0; }
+  #schema-explorer .metric, #schema-explorer .table-card, #schema-explorer .note { border: 1px solid #dce1ea; border-radius: 10px; background: #fff; padding: 14px; }
+  #schema-explorer .metric strong { display: block; color: #243b70; font-size: 24px; }
+  #schema-explorer .metric span { color: #687386; font-size: 13px; }
+  #schema-explorer .diagram { border: 1px solid #dce1ea; border-radius: 12px; background: #fbfcff; overflow: auto; }
+  #schema-explorer svg { display: block; min-width: 900px; width: 100%; }
+  #schema-explorer .node { fill: #fff; stroke: #b9c3d5; stroke-width: 1.5; rx: 9; }
+  #schema-explorer .target { fill: #edf3ff; stroke: #4b78c2; }
+  #schema-explorer .media { fill: #f7f1ff; stroke: #8269bc; }
+  #schema-explorer .behavior { fill: #eff9f2; stroke: #55936a; }
+  #schema-explorer .line { stroke: #8390a5; stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+  #schema-explorer .node-title { font-size: 15px; font-weight: 700; fill: #1d2433; }
+  #schema-explorer .node-meta { font-size: 12px; fill: #59667b; }
+  #schema-explorer .edge-label { font-size: 11px; fill: #66748a; }
+  #schema-explorer .tables { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  #schema-explorer .table-card h3 { font-size: 15px; margin: 0 0 7px; }
+  #schema-explorer .table-card p { font-size: 13px; }
+  #schema-explorer .fields { margin: 9px 0 0; color: #566173; font-size: 12px; line-height: 1.55; }
+  #schema-explorer .note { background: #f7f9fc; border-left: 4px solid #4b78c2; }
+  #schema-explorer .note strong { display: block; margin-bottom: 5px; }
+  @media (max-width: 700px) { #schema-explorer .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); } #schema-explorer .tables { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main id="schema-explorer">
+  <h1>Message Notification Router — data map</h1>
+  <p>The prediction unit is one incoming WhatsApp message. Every other table adds identity, relationship, behavioral, or media context for deciding <em>notify</em>, <em>digest</em>, or <em>mute</em>.</p>
+
+  <section class="metrics" aria-label="Dataset overview">
+    <div class="metric"><strong>110</strong><span>incoming messages to route</span></div>
+    <div class="metric"><strong>412</strong><span>historical messages + reactions</span></div>
+    <div class="metric"><strong>54</strong><span>users with notification behavior</span></div>
+    <div class="metric"><strong>30</strong><span>labeled examples for validation</span></div>
+  </section>
+
+  <h2>Entity relationships</h2>
+  <section class="diagram" aria-label="Dataset entity relationship diagram">
+    <svg viewBox="0 0 1120 620" role="img" aria-label="Messages connect to recipients, groups, businesses, senders, history, events, and media assets">
+      <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#8390a5"/></marker></defs>
+      <path class="line" d="M400 154 C365 120,335 105,290 103"/><text class="edge-label" x="319" y="115">user_id</text>
+      <path class="line" d="M720 154 C758 120,794 105,834 103"/><text class="edge-label" x="760" y="115">group_id</text>
+      <path class="line" d="M720 210 C770 220,800 250,835 282"/><text class="edge-label" x="775" y="245">business_id</text>
+      <path class="line" d="M400 210 C355 222,325 251,288 282"/><text class="edge-label" x="328" y="245">sender_user_id</text>
+      <path class="line" d="M560 255 L560 337"/><text class="edge-label" x="572" y="302">same message schema</text>
+      <path class="line" d="M685 398 C743 397,787 394,834 388"/><text class="edge-label" x="745" y="381">message_id</text>
+      <path class="line" d="M400 428 C350 455,324 480,287 503"/><text class="edge-label" x="323" y="469">user_id + group_id</text>
+      <path class="line" d="M720 428 C767 454,796 480,834 503"/><text class="edge-label" x="765" y="469">user_id + business_id</text>
+      <path class="line" d="M560 255 L560 552"/><text class="edge-label" x="572" y="500">media_id</text>
+
+      <rect class="node behavior" x="80" y="55" width="210" height="92"/><text class="node-title" x="100" y="84">users.csv</text><text class="node-meta" x="100" y="108">54 recipients</text><text class="node-meta" x="100" y="128">DND, opens, replies, dismissals, reports</text>
+      <rect class="node target" x="400" y="145" width="320" height="110"/><text class="node-title" x="420" y="177">messages.csv</text><text class="node-meta" x="420" y="202">110 prediction rows</text><text class="node-meta" x="420" y="223">text, time, conversation, sender, media, forwards</text><text class="node-meta" x="420" y="242">→ action, type, reason, confidence, evidence</text>
+      <rect class="node behavior" x="835" y="55" width="210" height="92"/><text class="node-title" x="855" y="84">groups.csv</text><text class="node-meta" x="855" y="108">23 chats: family, school, work, society…</text><text class="node-meta" x="855" y="128">size, admins, activity</text>
+      <rect class="node behavior" x="80" y="255" width="210" height="92"/><text class="node-title" x="100" y="284">personal senders</text><text class="node-meta" x="100" y="308">represented by users.csv</text><text class="node-meta" x="100" y="328">trust inferred from history + events</text>
+      <rect class="node behavior" x="835" y="255" width="210" height="92"/><text class="node-title" x="855" y="284">business_accounts.csv</text><text class="node-meta" x="855" y="308">110 accounts; 84 verified</text><text class="node-meta" x="855" y="328">brand, domain, age, reports, category</text>
+      <rect class="node target" x="400" y="337" width="285" height="92"/><text class="node-title" x="420" y="367">message_history.csv</text><text class="node-meta" x="420" y="391">412 prior incoming messages</text><text class="node-meta" x="420" y="411">retrieve similar user/sender/group/business patterns</text>
+      <rect class="node behavior" x="835" y="347" width="210" height="82"/><text class="node-title" x="855" y="376">message_events.csv</text><text class="node-meta" x="855" y="400">412 reactions keyed by message_id</text><text class="node-meta" x="855" y="418">open, reply, dismiss, mute, report</text>
+      <rect class="node behavior" x="80" y="478" width="210" height="82"/><text class="node-title" x="100" y="507">group_members.csv</text><text class="node-meta" x="100" y="531">401 user↔group memberships</text><text class="node-meta" x="100" y="550">role, activity, muted state</text>
+      <rect class="node behavior" x="835" y="478" width="210" height="82"/><text class="node-title" x="855" y="507">user_business_history.csv</text><text class="node-meta" x="855" y="531">106 user↔business relationships</text><text class="node-meta" x="855" y="550">orders, opt-ins/outs, engagement</text>
+      <rect class="node media" x="410" y="552" width="300" height="55"/><text class="node-title" x="430" y="577">images.csv + voice_notes.csv</text><text class="node-meta" x="430" y="596">20 image assets, 13 audio assets</text>
+    </svg>
+  </section>
+
+  <h2>What each data family contributes</h2>
+  <section class="tables">
+    <article class="table-card"><h3>Incoming + labels</h3><p><b>messages.csv</b> is the unlabeled target. <b>sample_messages.csv</b> has the same inputs plus ground truth and is only for quality checks.</p><div class="fields">110 target rows: 63 group, 30 business, 17 personal. Media: 87 text, 15 image, 8 voice.</div></article>
+    <article class="table-card"><h3>History + feedback</h3><p>Historical messages become retrieval evidence; their event rows show whether the user valued, dismissed, muted, or reported similar content.</p><div class="fields">278 opens · 153 replies · 134 dismissals · 134 mutes · 55 reports.</div></article>
+    <article class="table-card"><h3>Recipient preferences</h3><p>User-level behavior and daily load calibrate interruption tolerance. Group memberships and business relationships provide the precise personalization layer.</p><div class="fields">A muted group changes a casual message; a business opt-out changes a promotion.</div></article>
+    <article class="table-card"><h3>Sender legitimacy</h3><p>Business account metadata distinguishes verified, matching-domain brands from potentially risky accounts. Personal sender trust is learned from past interactions.</p><div class="fields">Relevant checks: verified flag, official vs sender domain, account age, report volume.</div></article>
+    <article class="table-card"><h3>Conversation setting</h3><p>Groups encode social context—family, school, work, society, marketplace—and membership exposes roles, activity, notification dismissals, and mute state.</p><div class="fields">Use direct mentions and time-sensitive operations to override normal group muting.</div></article>
+    <article class="table-card"><h3>Multimodal content</h3><p>Image and voice catalogs map media IDs to assets. Their extracted text or transcript should be treated as additional message content, not a separate prediction target.</p><div class="fields">The target media mix is modest but high-value: 23 of 110 messages.</div></article>
+  </section>
+
+  <h2>Decision path</h2>
+  <section class="note"><strong>Safety → relevance → urgency → interruption cost</strong><p>First mute clear scams, spam, unwanted promotions, and low-value forwards. Then retrieve comparable history and adjust by sender trust, relationship status, group mute state, direct mention, time sensitivity, and media content. Finally choose notify only when the immediate benefit outweighs the user’s interruption cost; otherwise digest.</p></section>
+</main>
+</body>
+</html>
